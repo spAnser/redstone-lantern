@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "redstonelantern",
+  "version": "${version}",
+  "name": "Redstone Lantern",
+  "description": "Redstone Lantern",
+  "authors": [
+    "spAnser"
+  ],
+  "contact": {
+    "homepage": "https://github.com/spAnser/redstone-lantern",
+    "issues": "https://github.com/spAnser/redstone-lantern/issues",
+    "sources": "https://github.com/spAnser/redstone-lantern"
+  },
+  "license": "MIT",
+  "icon": "assets/redstonelantern/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "com.spanser.redstonelantern.RedstoneLantern"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "~1.19"
+  },
+  "recommends": {
+    "cloth-config2": "7.x.x",
+    "modmenu": "*"
+  }
+}

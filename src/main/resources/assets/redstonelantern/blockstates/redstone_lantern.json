@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "redstonelantern:block/redstone_lantern"
+    },
+    "hanging=true": {
+      "model": "redstonelantern:block/redstone_lantern_hanging"
+    }
+  }
+}
